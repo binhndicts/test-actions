@@ -1,0 +1,23 @@
+{
+  "name": "test-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gu-wallet-core": "git+ssh://git@github.com/gulabs/gu-wallet-core.git#dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binhndicts/test-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binhndicts/test-actions/issues"
+  },
+  "homepage": "https://github.com/binhndicts/test-actions#readme"
+}
