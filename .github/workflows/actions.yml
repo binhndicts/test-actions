@@ -7,7 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
       with:
-        ssh_key: ${{ secrets.ssh_key }}
+         key: ${{ secrets.SSH_PRIVATE_KEY }}
+         known_hosts: ${{ secrets.KNOWN_HOST }}
     - name: Setup
       run: npm install
